@@ -1,0 +1,32 @@
+Ao realizar os testes foram encontrado alguns problemas
+
+Failed scenarios:
+
+--Cenario07 Esquema do Cenario: Validar uma simulacao para um mesmo CPF retorna um HTTP Status 409 com a mensagem "CPF j? existente"
+ expectativa:<40[9]> Realidade:<40[0]>
+
+--Cenario10 Esquema do Cenario: Validar se retorna o HTTP Status 204 se simulacao for removida com sucesso
+expectativa:<20[4]> Realidade:<20[0]>
+
+
+
+--Cenario12 Esquema do Cenario: Validar se retorna o HTTP Status 404 com a mensagem  Simulacao nao encontrada  se nao existir a simulacao pelo ID informado
+ expectativa:<[404]> Realidade:<[200]>
+
+--Cenario11 Esquema do Cenario: Validar se retorna HTTP Status 204 caso nao exista simulacoes cadastradas
+ expectativa:<20[4]> Realidade:<20[0]>
+
+13 Scenarios (4 failed, 9 passed)
+39 Steps (4 failed, 35 passed)
+0m9,279s
+
+
+
+
+
+
+
+
+
+
+	
